@@ -4,6 +4,10 @@ import ReSrc from '@/public/3.png'
 
 export default function Page() {
   return (
-    <Hero imgUrl={ReSrc} altText="Reliability" content="reliabdfadsfa!!!!！@#" />
+    <Hero
+      imgUrl={ReSrc}
+      altText="Reliability"
+      content="reliabdfadsfa!!!!！@#"
+    />
   )
 }
