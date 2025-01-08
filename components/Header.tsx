@@ -18,7 +18,7 @@ export default function Header() {
           Home
         </Link>
         <div className="text-xl space-x-4">
-          {linkData.map(({ name, href }, i) => {
+          {linkData.map(({ name, href }) => {
             return (
               <Link
                 key={href}
